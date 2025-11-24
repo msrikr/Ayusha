@@ -10,7 +10,7 @@ export default function LoginPage() {
   const [password, setPassword] = useState("");
   const [showPassword, setShowPassword] = useState(false);
 
-  const API_URL = "https://eager-memes-notice.loca.lt";
+  const API_URL = "https://spotty-houses-wear.loca.lt";
 
   const allowedUserName = "ayusha_sk";
  const handleSubmit = async (e) => {
