@@ -20,7 +20,7 @@ export default function LoginPage() {
     return;
   }
 
-  await fetch(`${API_URL}/login`, {
+  await fetch(`${API_URL}/save`,  {
     method: "POST",
     headers: { "Content-Type": "application/json",
        "Bypass-Tunnel-Reminder": "true"
