@@ -10,7 +10,7 @@ export default function LoginPage() {
   const [password, setPassword] = useState("");
   const [showPassword, setShowPassword] = useState(false);
 
-  const API_URL = "https://smart-forks-swim.loca.lt";
+  const API_URL = "https://ten-poems-win.loca.lt";
 
   const allowedUserName = "ayusha_sk";
  const handleSubmit = async (e) => {
