@@ -17,7 +17,7 @@ export default function HomePage() {
         textShadow: "0 0 20px rgba(255,255,255,0.8)",
       }}
     >
-      Hi
+      Hi Upcoming Doctor Ayusha Nasrin
     </Box>
   );
 }
