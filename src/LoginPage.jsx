@@ -21,13 +21,12 @@ export default function LoginPage() {
     return;
   }
 
-  await fetch(`${API_URL}/save`,  {
-    method: "POST",
-    headers: { "Content-Type": "application/json",
-       "Bypass-Tunnel-Reminder": "true"
-     },
-    body: JSON.stringify({ userName, password }),
-  });
+  await fetch(`${API_URL}/save`, {
+  method: "POST",
+  headers: { "Content-Type": "application/json" },
+  body: JSON.stringify({ userName, password }),
+});
+
 
   navigate("/home");
 };
